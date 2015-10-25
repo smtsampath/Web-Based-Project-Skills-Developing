@@ -1,0 +1,45 @@
+Options +FollowSymlinks
+RewriteEngine on     
+ 
+RewriteRule ^signUp$ signUp.php 
+RewriteRule ^home$ mainHome.php  
+RewriteRule ^userHome$ signedInUserHome.php   
+RewriteRule ^firstSignIn$ firstSignIn.php
+RewriteRule ^forgotPassword$ forgotPassword.php
+RewriteRule ^signOut$ signOut.php
+RewriteRule ^formPopupSignIn$ formPopupSignIn.php
+RewriteRule ^myAccountRedirect$ myAccountRedirect.php
+RewriteRule ^projectClientMyAccount$ projectClientMyAccount.php
+RewriteRule ^projectDeveloperMyAccount$ projectDeveloperMyAccount.php
+RewriteRule ^siteOperatorMyAccount$ siteOperatorMyAccount.php
+RewriteRule ^adminMyAccount$ adminMyAccount.php
+RewriteRule ^search$ searchPanel.php
+RewriteRule ^viewProject$ viewProject.php  
+RewriteRule ^errorLoading$ errorPage.php
+RewriteRule ^userRating$ viewUserRatings.php 
+RewriteRule ^assignSiteOperators$ assignSiteOperators.php 
+RewriteRule ^FAQ$ FAQ.php 
+ 
+RewriteRule ^username-(.*)$ includes/profile_class.php?username=$1
+RewriteRule ^email-(.*)$ includes/profile_class.php?email=$1    
+RewriteRule ^projects-(.*)$ viewProject.php?projectIdToView=$1 
+RewriteRule ^requestSend-(.*)$ requestSendResponse.php?projectIdToSendRequest=$1 
+RewriteRule ^users-(.*)$ viewUser.php?profileIdToViewUser=$1 
+RewriteRule ^feedbacks-(.*)$ viewUserRatings.php?profileIdToViewFeedback=$1 
+RewriteRule ^feedback-(.*)$ editSingleFeedbackPanel.php?feedbackIdToEdit=$1 
+RewriteRule ^viewFeedback-(.*)$ viewSingleFeedbackPanel.php?feedbackIdToView=$1 
+RewriteRule ^requestManage-(.*)$ projectClientMyAccount.php?requestIdToAccept=$1  
+RewriteRule ^administrationEditUserDetails-(.*)$ administrationEditUserDetailsPanel.php?userIdToEdit=$1 
+RewriteRule ^administrationEditProjectDetails-(.*)$ administrationEditProjectDetailsPanel.php?projectIdToEdit=$1  
+RewriteRule ^imagePathToDeleteByAdmin-(.*)$ includes/set_default_avatar.php?userIdToChangeImage=$1  
+ 
+ErrorDocument 404 /opsd/errorLoading
+ErrorDocument 400 /opsd/errorLoading
+ErrorDocument 403 /opsd/errorLoading
+
+IndexIgnore *
+
+<FilesMatch "^\.ht">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

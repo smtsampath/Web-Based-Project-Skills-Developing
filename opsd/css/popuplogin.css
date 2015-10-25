@@ -1,0 +1,29 @@
+#login_box
+{
+width:224px;
+font-family:Tahoma;
+font-size:12px;
+color:#3F3F3F;
+background-color:#F7F7F7;
+opacity:0.9;
+border:solid 1px #CECECE;
+padding:8px 10px 0px 10px;
+margin-left:676px;
+position:absolute;
+display:none;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+}  
+
+.heading{
+background-color:#2859AA;
+border:1px solid #121649;
+color:#FFFFFF;
+font-weight:bold;
+font-size:14px;
+padding:3px;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+width:500px;
+margin-left:300px;
+}

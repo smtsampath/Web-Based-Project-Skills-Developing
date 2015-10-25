@@ -1,0 +1,31 @@
+.headerImage{
+	padding-left:13.5%;
+}
+
+.siteMenu{
+	padding-left:15%;
+	padding-top:0.5%;
+}  
+.homePageLogo{
+	padding-left:23%;
+	padding-top:5px;
+}
+.signUpForm{
+	padding-left:35%;
+	padding-top:2%;
+} 
+.firstSignInForm{
+	padding-left:37%;
+	padding-top:2%;
+}
+.hompageSignInForm{
+	padding-left:0%;
+	padding-top:2%;
+	width: 60%; 
+}
+
+.tabPanel1{
+	margin-left:13.5%;
+	margin-top:3%;
+	width: 75%; 
+}

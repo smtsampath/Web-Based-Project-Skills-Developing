@@ -1,0 +1,131 @@
+.home{
+    background-image:url('../images/hmheaderbgrepeater.png');
+    background-repeat:repeat-x;
+    padding: 0;
+    margin: 0px;
+    background-color: White;
+}
+body {
+    background-image:url('../images/nhmheaderbgrepeater.png');
+    background-repeat:repeat-x;
+    padding: 0;
+    margin: 0px;
+    background-color: White; 
+}
+a.siteMenuLink:link {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0%  2% 0%  0% ; 
+	
+}
+a.siteMenuLink:visited {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0%  2% 0%  0%  ;
+}
+a.siteMenuLink:hover {
+    color:#FFB237;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0%  2% 0%  0%;
+}
+a.signInLink:link {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 39.5%;  
+}
+a.signInLink:visited {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 39.5%; 
+}
+a.signInLink:hover {
+    color:#FFB237;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 39.5% ; 
+}
+a.signOutLink:link {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 36% ;  
+}
+a.signOutLink:visited {
+    color:#FFF;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 36% ; 
+}
+a.signOutLink:hover {
+    color:#FFB237;
+    text-decoration:none;
+    outline:none;
+    font-weight:bold;
+    margin: 0 10% 0 36% ; 
+}
+.fontOnly{
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+     
+}
+.formFontOnly{
+    font: 11px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+    
+}
+#signInPopUpClose{
+	margin-left:130px;
+	border:none;
+	margin-top:5px;
+}
+
+.pagerLink{
+	font: 11px  Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-weight:bold;  
+	 
+}
+
+.faqTitle1{
+	font: 13px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	font-weight:bold; 
+	text-decoration:underline;
+	padding: 1% 0% 0% 0%; 
+	
+}
+
+.faqTitle2{
+	 font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	 font-weight:bold;  
+}
+
+.faqTBody{
+	 font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif; 
+	 padding: 1% 0% 1% 2%; 
+}
+
+.faqLinks{
+	color:#CC1000;
+	font-weight:bold; 
+}
+
+
+.faqRow{
+background-color: #F7F7F7;    
+ color: #000000;    
+ text-align: left;  
+  border: 1px solid #D3D3D3; 
+ border-collapse: collapse;	
+ padding:0.5% 0.5% 0.5% 2%;   
+ margin:0.5% 0.5% 0.5% 2%;
+}
